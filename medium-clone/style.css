@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(193, 193, 193);
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.navbar{
+    margin: 10px 15px;
+}
+.navbar>ul{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.left-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav-items{
+    list-style: none;
+}
+
+.nav-items>a{
+    text-decoration: none;
+    
+}
+
+.logo-text{
+    font-size: 30px;
+}
+
+.search-bar{
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    background-color: white;
+}
+
+
+/* Contents */
+
+.content-section{
+    width: 85%;
+    display: flex;
+    margin: 10px 10px;
+    margin: auto;
+}
+
+.feed-image>img{
+    width: 150px;
+    height: 150px;
+}
+
+.for-you{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid blue; */
+    padding-top: 20px;
+    background-color:white;
+}
+.for-you-head{
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.feed-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+
+}
+
+.feeds{
+    /* border: 1px solid orange; */
+    /* margin: 30px; */
+    padding-top: 30px;
+    width: 65%;
+    margin-right: 10%;
+}
+
+/* font sizes */
+
+.author{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.feed-head{
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.description{
+    font-size: 16px;
+}
+
+.staff-picks{
+    position: sticky;
+    top: 20px;
+
+    width: 25%;
+    font-size: 14px;
+    /* margin: 30px; */
+    padding-top: 30px;
+    padding-left: 5%;
+    border-left: 1px solid gray;
+}
+
+.staff-picks>h2{
+    margin-bottom: 20px;
+}
+
+.staff-picks-card{
+    margin: 10px 0;
+}
+
+.recommended-topics{
+    margin-top: 40px;
+}
+
+.recommended-topics>h3{
+    margin-bottom: 40px;
+}
+
+.recommended-topics>a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+
+}
