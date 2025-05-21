@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- header -->
+        <nav class="header">
+            <div class="logo">
+                <img class="logo-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" alt="">
+                <h1 class="logo-name">Spotify</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Library</a></li>
+            </ul>
+        </nav>
+
+        <!-- song selection mid - container -->
+        <div class="song-selection container">
+            <h1 class="album-title">Best of NCS - No Copyright Sounds</h1>
+
+
+
+            <!-- songs list -->
+            <div class="songs-list">
+                <!-- <ul>
+                    <li>1. Alan Walker - Faded</li>
+                    <li>2. Alan Walker - Alone</li>
+                    <li>3. Alan Walker - Darkside</li>
+                    <li>4. Alan Walker - On My Way</li>
+                    <li>5. Alan Walker - The Spectre</li>
+                    <li>6. Alan Walker - Sing Me To Sleep</li>
+                    <li>7. Alan Walker - All Falls Down</li>
+                    <li>8. Alan Walker - Tired</li>
+                </ul> -->
+                <div class="song-items">
+                    <div class="song-image song1"></div>
+                    <div class="song-name ">On & On - Cartoon,Daniel levi </div>
+                    <div class="time-play-icon">
+                        <span>2:50</span>
+                        <i id="play-button" class="song name fa-regular fa-circle-play"></i>
+                    </div>
+                </div>
+
+
+                <div class="song-items">
+                    <div class="song-image song2"></div>
+                    <div class="song-name">Invincible Deaf Kev</div>
+                    <div class="time-play-icon">
+                        <span>2:50</span>
+                        <i id="play-button" class="song name fa-regular fa-circle-play"></i>
+                    </div>
+                </div>
+
+
+                <div class="song-items">
+                    <div class="song-image song3"></div>
+                    <div class="song-name"> Martals-Warriyo, laura Brehm</div>
+                    <div class="time-play-icon">
+                        <span>2:50</span>
+                        <i id="play-button" class="song name fa-regular fa-circle-play"></i>
+                    </div>
+                </div>
+
+
+                <div class="song-items">
+                    <div class="song-image song4"></div>
+                    <div class="song-name">Shine - Spektrem</div>
+                    <div class="time-play-icon">
+                        <span>2:50</span>
+                        <i id="play-button" class="song name fa-regular fa-circle-play"></i>
+                    </div>
+                </div>
+
+
+                <div class="song-items">
+                    <div class="song-image song5"></div>
+                    <div class="song-name">Why we lose - Cartoon, Coleman Trapp</div>
+                    <div class="time-play-icon">
+                        <span>2:50</span>
+                        <i id="play-button" class="song name fa-regular fa-circle-play"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+   
+        <!-- music player -->
+        <div class="music-player">
+            <!-- Progress bar -->
+            <input type="range" id="progress-bar" value="0" min="0" max="100">
+            <div class="player-info"><span>On & On - Cartoon, Daniel Levi</span></div>
+            <div class="player-controls">
+                <i class="fa-solid fa-backward"></i>
+                <i class="fa-regular fa-circle-play" id="main-play"></i>
+                <i class="fa-solid fa-forward"></i>
+            </div>
+        </div>
+
+            
+        <audio id="audio-player" src=""></audio>
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

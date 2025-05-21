@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: white;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    /* margin-top: 10px; */
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+.logo-image {
+    width: 40px;
+    height: 40px;
+}
+.nav-links {
+    margin-right: 10px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.container {
+    margin: auto;
+    margin-top: 10px;
+    height: 80vh;
+    width: 75%;
+    /* border: 2px solid yellow; */
+    border-radius: 10px;
+    background: url("https://mrwallpaper.com/images/high/girl-with-headset-black-mac-xu3epw32hsg8xvak.webp");
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container .album-title {
+    /* border: 2px solid white; */
+    display: inline-block;
+    margin: 10px 20px;
+    color: beige;
+}
+
+.songs-list {
+    /* border: 1px solid white; */
+    width: 50%;
+    margin: 30px 20px;
+}
+
+.song-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+    height: 40px;
+    /* border: 1px solid white; */
+    background-color: beige;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+.song-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.song1 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQspHBnJWt2IwMvvTnbK8GCA8VrmCTPous4Pg&s");
+    background-size: cover;
+}
+
+.song2 {
+    background: url("https://i1.sndcdn.com/artworks-000116771545-kc8oi5-t500x500.jpg");
+    background-size: cover;
+}
+.song3 {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQefGfZ-wyCv_Mgf0twAf-CIDcxPcqCAlqHPw&s");
+    background-size: cover;
+}
+
+.song4 {
+    background: url("https://i1.sndcdn.com/artworks-000069730614-cu7o5o-t500x500.jpg");
+    background-size: cover;
+}
+.song5 {
+    background: url("https://i1.sndcdn.com/artworks-000478466373-aei02v-t500x500.jpg");
+    background-size: cover;
+}
+
+.time-play-icon {
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.time-play-icon i {
+    font-size: 23px;
+}
+
+.music-player {
+    margin-top: 10px;
+    /* border-radius: 10px; */
+    width: 100%;
+    height: 60px;
+    border: 1px solid white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: static;
+    bottom: 0;
+    /* font-size: 20px; */
+}
+.player-controls i {
+    /* width: 60vw; */
+    font-size: 30px;
+    color: white;
+    /* margin: 10px 0px; */
+}
+.player-info span {
+    /* width: 40vw; */
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+#progress-bar {
+    width: 90%;
+    height: 5px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+    grid-column: 1 / span 2;
+    margin: auto;
+}
